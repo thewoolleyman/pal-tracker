@@ -1,0 +1,65 @@
+{
+  "branchToRevise": "solution",
+  "incrementCommits": [
+    {
+      "message": "Enable security",
+      "tags": ["security-solution"]
+    },
+    {
+      "message": "Add tests for Security lab",
+      "tags": ["security-start"]
+    },
+    {
+      "message": "Add actuator endpoints",
+      "tags": ["actuator-solution"]
+    },
+    {
+      "message": "Add tests for Actuator lab",
+      "tags": ["actuator-start"]
+    },
+    {
+      "message": "Persist time entries in database",
+      "tags": ["jdbc-solution"]
+    },
+    {
+      "message": "Add tests for JDBC lab",
+      "tags": ["jdbc-start"]
+    },
+    {
+      "message": "Add migrations",
+      "tags": ["migration-solution"]
+    },
+    {
+      "message": "Add TimeEntry MVC in memory",
+      "tags": ["mvc-solution","migration-start"]
+    },
+    {
+      "message": "Add tests for MVC lab",
+      "tags": ["mvc-start"]
+    },
+    {
+      "message": "Deploy to multiple environments",
+      "tags": ["pipeline-solution"]
+    },
+    {
+      "message": "Add deployment pipeline",
+      "tags": ["pipeline-start","concourse-solution"]
+    },
+    {
+      "message": "Add manifest file for deployment to PCF",
+      "tags": ["deployment-solution", "concourse-start"]
+    },
+    {
+      "message": "Add tests for deployment lab",
+      "tags": ["start"]
+    },
+    {
+      "message": "Simple Spring Boot app",
+      "tags": ["spring-boot-solution"]
+    },
+    {
+      "message": "Initial commit",
+      "tags": ["spring-boot-start"]
+    }
+  ]
+}
